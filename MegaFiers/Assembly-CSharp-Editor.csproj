@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{3A0E714C-2A05-D059-2859-DD77BC052A26}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_4;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/Program Files (x86)/Unity5.3.4/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/Program Files (x86)/Unity5.3.4/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaBendEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaBubbleEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaBulgeEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaCrumpleEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaCurveDeformEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaCylindrifyEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaDisplaceEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaFFD2x2x2Editor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaFFD3x3x3Editor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaFFD4x4x4Editor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaFFDEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaFiersWindow.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaHumpEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaMeltEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaModifierEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaModifyGroupEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaModifyObjectEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaMorphAnimEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaMorphAnimatorEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaMorphEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaMorphOMaticEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaNoiseEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaPageFlipEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaPaintEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaParseEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaPathDeformEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaPivotAdjustEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaPointCacheEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaPushEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaRadialSkewEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaRippleEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaRopeDeformEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaRubberEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaSelectionEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaShape\MegaMeshPageEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaShape\MegaShapeArcEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaShape\MegaShapeCircleEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaShape\MegaShapeEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaShape\MegaShapeEllipseEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaShape\MegaShapeHelixEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaShape\MegaShapeNGonEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaShape\MegaShapeRectangleEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaShape\MegaShapeStarEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaShape\MegaShapeWindow.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaShape\MegaShapeWizard.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaSimpleEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaSimpleModEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaSinusCurveEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaSkewEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaSpherifyEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaSqueezeEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaStretchEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaTaperEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaTwistEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaTwistWarpEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaUVAdjustEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaUVTilesEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaVertColSelectEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaVertNoiseEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaVertexAnimEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaVolSelectEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaWarpBindEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaWarpEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaWaveEditor.cs" />
+     <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaWorldPathDeformEditor.cs" />
+     <None Include="Assets\Mega-Fiers\ReadMe.txt" />
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>D:/Program Files (x86)/Unity5.3.4/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>D:/Program Files (x86)/Unity5.3.4/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.EditorTestsRunner">
+ <HintPath>D:/Program Files (x86)/Unity5.3.4/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/Program Files (x86)/Unity5.3.4/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>D:/Program Files (x86)/Unity5.3.4/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>D:/Program Files (x86)/Unity5.3.4/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Program Files (x86)/Unity5.3.4/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>D:/Program Files (x86)/Unity5.3.4/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>D:/Program Files (x86)/Unity5.3.4/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>D:/Program Files (x86)/Unity5.3.4/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>D:/Program Files (x86)/Unity5.3.4/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{CA276546-1D9F-D5F0-6298-627A0467AD95}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
